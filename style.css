@@ -1,0 +1,179 @@
+#container{
+  max-width: 800px;
+  margin: auto;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+}
+
+#content {
+  width: 75%;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+#menu {
+  width: 25%;
+}
+
+body {
+  font-family: Tahoma, Arial, sans-serif;
+  color: #212121;
+}
+
+#header {
+  background-color: #004957;
+  color: white;
+  text-align: left;
+  padding: 20px;
+
+  background-image: url("images/foto.png");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  background-size: 65px auto;
+}
+
+#header h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+#header h2{
+  font-size: 12px;
+  margin: 4px 0 0 0;
+}
+
+#content {
+  color: #404040;
+  font-size: 14px;
+}
+
+#content h2 {
+  color: #004957;
+  font-size: 24px;
+}
+
+#content span {
+  font-size: 16px;
+}
+
+#menu {
+  font-size: 14px;
+}
+
+#menu h3 {
+  color: #004957;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+#footer {
+  background-color: #004957;
+  color: white;
+  font-size: 12px;
+  padding: 20px;
+}
+
+#footer h2 {
+  color: white;
+  font-size: 18px;
+  margin: 0 0 15px 0;
+}
+
+#footer span {
+font-size: 16px;
+}
+
+#menu li {
+  border-left: 5px solid #FF6A28;
+  margin: 6px 0 0 0;
+  padding: 5px 10px;
+  background-color: #EEEEEE;
+}
+
+#menu ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#menu a {
+  color: #212121;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#menu a:hover {
+  color: #FF6A28;
+}
+
+/* PASO 5.1: Organizar las fotografías */
+
+#photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+#photos div {
+  width: 30%;
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 0;
+}
+
+/* PASO 5.2: Primera fotografía */
+
+#photo1 {
+  background-image: url("images/foto1.png");
+}
+
+#photo1:hover {
+  background-image: url("images/foto1b.png");
+}
+
+#photo2 {
+  background-image: url("images/foto2.png");
+}
+ 
+#photo2:hover {
+  background-image: url("images/foto2b.png");
+}
+ 
+#photo3 {
+  background-image: url("images/foto3.png");
+}
+ 
+#photo3:hover {
+  background-image: url("images/foto3b.png");
+}
+ 
+#photo4 {
+  background-image: url("images/foto4.png");
+}
+ 
+#photo4:hover {
+  background-image: url("images/foto4b.png");
+}
+ 
+#photo5 {
+  background-image: url("images/foto5.png");
+}
+ 
+#photo5:hover {
+  background-image: url("images/foto5b.png");
+}
+ 
+#photo6 {
+  background-image: url("images/foto6.png");
+}
+ 
+#photo6:hover {
+  background-image: url("images/foto6b.png");
+}
+ 
